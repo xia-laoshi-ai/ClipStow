@@ -24,8 +24,8 @@
 
 ## 已知限制与发布状态
 
-- v10.3 本版决定暂不进行 Authenticode 代码签名；请使用下方 SHA-256 或 `SHA256SUMS.txt` 核对文件完整性。
+- v10.3 本版决定暂不进行 Authenticode 代码签名；请使用本页列出的 SHA-256 或 `SHA256SUMS.txt` 核对文件完整性。
 - 第三方许可工程审计已完成；FFmpeg 作为独立 GPLv3-or-later 程序披露，许可与源码入口见 `THIRD_PARTY_NOTICES.md` 和许可证附件。
 - v2 卸载、设置保留、重装、真实 GUI 和本机会话保留回归已完成。
 
-当前变更仅完成本地发布暂存；GitHub Release 仍保持 Draft，尚未上传许可证附件或执行 publish。
+[GitHub Release v10.3](https://github.com/xia-laoshi-ai/ClipStow/releases/tag/v10.3) 已于 2026-08-07 正式公开发布。安装版、便携版和第三方许可证三个附件均已上传，并完成 SHA-256 复核。
