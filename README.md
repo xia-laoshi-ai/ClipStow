@@ -10,6 +10,7 @@ ClipStow 是面向 Windows x64 的免费视频下载工具，支持小红书、B
 
 - `ClipStow-10.3-Setup-20260807.exe`：用户级安装，支持自定义安装目录，不要求管理员权限。
 - `ClipStow-10.3-Portable-20260807.zip`：解压完整文件夹后运行 `ClipStow.exe`。
+- `ClipStow-10.3-ThirdParty-Licenses-20260807.zip`：第三方许可证全文与官方许可/源码入口。
 
 不要脱离便携版文件夹单独复制主程序。下载后请使用 [`SHA256SUMS.txt`](SHA256SUMS.txt) 核对文件完整性。
 
