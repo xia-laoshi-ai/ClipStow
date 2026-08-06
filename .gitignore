@@ -1,0 +1,11 @@
+# Release assets are uploaded with GitHub Releases, never committed as Git blobs.
+release-assets/
+
+# Never publish local state or build residue.
+settings.json
+*_session.dat
+*.log
+*.part
+*.ytdl
+__pycache__/
+*.pyc
