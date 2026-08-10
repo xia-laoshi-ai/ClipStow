@@ -12,7 +12,7 @@ ClipStow 在解析、登录和下载时会直接访问用户提供链接所属�
 
 ## 二进制签名
 
-v10.3 本版决定暂不进行 Windows Authenticode 代码签名。请只从官方 GitHub Releases 下载，并核对 `SHA256SUMS.txt`；项目不会宣称该版本安装包已签名。
+v10.4 本版决定暂不进行 Windows Authenticode 代码签名。请只从官方 GitHub Releases 下载，并核对 `SHA256SUMS_v10.4.txt`；项目不会宣称该版本安装包已签名。
 
 ## 报告问题
 

@@ -1,6 +1,6 @@
 # ClipStow
 
-ClipStow 是面向 Windows x64 的免费视频下载工具，支持小红书、B站、YouTube 和 Vimeo 链接。当前版本为 **v10.3**。
+ClipStow 是面向 Windows x64 的免费视频下载工具，支持小红书、Behance、B站、YouTube 和 Vimeo 链接。当前版本为 **v10.4**。
 
 > ClipStow 可以免费使用，但不是开源软件。官方版本不会收费；任何要求为 ClipStow 软件本体付费的分发都不是官方发布。
 
@@ -8,11 +8,11 @@ ClipStow 是面向 Windows x64 的免费视频下载工具，支持小红书、B
 
 请从 [GitHub Releases](https://github.com/xia-laoshi-ai/ClipStow/releases) 下载：
 
-- `ClipStow-10.3-Setup-20260807.exe`：用户级安装，支持自定义安装目录，不要求管理员权限。
-- `ClipStow-10.3-Portable-20260807.zip`：解压完整文件夹后运行 `ClipStow.exe`。
-- `ClipStow-10.3-ThirdParty-Licenses-20260807.zip`：第三方许可证全文与官方许可/源码入口。
+- `ClipStow-10.4-Setup-20260810.exe`：用户级安装，支持自定义安装目录，不要求管理员权限。
+- `ClipStow-10.4-Portable-20260810.zip`：解压完整文件夹后运行 `ClipStow.exe`。
+- `ClipStow-10.4-ThirdParty-Licenses-20260810.zip`：第三方许可证全文与官方许可/源码入口。
 
-不要脱离便携版文件夹单独复制主程序。下载后请使用 [`SHA256SUMS.txt`](SHA256SUMS.txt) 核对文件完整性。
+不要脱离便携版文件夹单独复制主程序。下载后请使用 [`SHA256SUMS_v10.4.txt`](SHA256SUMS_v10.4.txt) 核对文件完整性。v10.3 的历史校验值仍保留在 [`SHA256SUMS.txt`](SHA256SUMS.txt)。
 
 ## 快速使用
 
