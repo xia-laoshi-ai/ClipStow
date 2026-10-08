@@ -1,30 +1,39 @@
 # ClipStow
 
-ClipStow 是面向 Windows x64 的免费视频下载工具，支持小红书、Behance、B站、YouTube 和 Vimeo 链接。当前版本为 **v10.4**。
+ClipStow 是面向 Windows x64 的免费视频下载工具。当前公开版本为 **v11.0.8**，提供便携桌面程序和浏览器协助扩展。
 
-> ClipStow 可以免费使用，但不是开源软件。官方版本不会收费；任何要求为 ClipStow 软件本体付费的分发都不是官方发布。
+> ClipStow 可以免费使用，但不是开源软件。官方版本不会要求为 ClipStow 软件本体付费。
 
-## 下载
+## 下载 v11.0.8
 
-请从 [GitHub Releases](https://github.com/xia-laoshi-ai/ClipStow/releases) 下载：
+- [下载便携 ZIP](https://github.com/xia-laoshi-ai/ClipStow/releases/download/v11.0.8/ClipStow-11.0.8-Portable-DualMode-icon.zip)
+- [README_11.0.8.md](https://github.com/xia-laoshi-ai/ClipStow/releases/download/v11.0.8/README_11.0.8.md)
+- [SHA256SUMS_11.0.8.txt](https://github.com/xia-laoshi-ai/ClipStow/releases/download/v11.0.8/SHA256SUMS_11.0.8.txt)
+- [第三方通知](https://github.com/xia-laoshi-ai/ClipStow/releases/download/v11.0.8/THIRD_PARTY_NOTICES_11.0.8.md)
 
-- `ClipStow-10.4-Setup-20260810.exe`：用户级安装，支持自定义安装目录，不要求管理员权限。
-- `ClipStow-10.4-Portable-20260810.zip`：解压完整文件夹后运行 `ClipStow.exe`。
-- `ClipStow-10.4-ThirdParty-Licenses-20260810.zip`：第三方许可证全文与官方许可/源码入口。
+请完整解压 ZIP 后运行 `ClipStow.exe`，不要脱离目录单独复制 EXE。旧版本仍可在 [Releases](https://github.com/xia-laoshi-ai/ClipStow/releases) 页面查看。
 
-不要脱离便携版文件夹单独复制主程序。下载后请使用 [`SHA256SUMS_v10.4.txt`](SHA256SUMS_v10.4.txt) 核对文件完整性。v10.3 的历史校验值仍保留在 [`SHA256SUMS.txt`](SHA256SUMS.txt)。
+## 桌面下载
 
-## 快速使用
+打开 `ClipStow.exe`，将公开链接粘贴到输入框，选择清晰度和保存目录后开始下载。需要账号权限的内容可使用程序内独立登录入口。
 
-1. 打开 ClipStow，将视频链接粘贴到输入框。
-2. 选择清晰度和保存目录。
-3. 需要账号权限的视频，请先在软件提供的独立登录窗口完成登录。
-4. 登录会话只保存在当前 Windows 用户的本机环境中，不应复制到其他电脑。
+## 浏览器协助
 
-## 反馈
+1. 解压 ZIP，打开浏览器扩展管理页并开启开发者模式。
+2. 在 Chrome、Edge 或 360 中加载 ZIP 内的 `extension` 文件夹。
+3. 打开 `ClipStow.exe`，进入设置→浏览器协助，选择浏览器并点击连接。
+4. 回到已登录的笔记页点击扩展，确认标题和媒体数量后选择保存目录。
 
-普通问题和功能建议请提交到 [GitHub Issues](https://github.com/xia-laoshi-ai/ClipStow/issues)。提交前请移除账号信息、登录会话、请求头、Token、Cookie、私人路径和视频链接中的敏感参数。
+移动目录或更换电脑后重新连接，不要复制浏览器登录会话。旧扩展目录仍可使用；需要新图标时请加载 v11.0.8 包内的 `extension` 目录。
 
-安全与隐私说明见 [`SECURITY.md`](SECURITY.md)，权利和第三方组件说明见 [`LICENSE.md`](LICENSE.md) 与 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
+## 范围与隐私
 
-维护者：海派小朋友Leo
+本机 Windows 11 x64 已完成桌面和 Edge 连接核验；其它电脑、完整浏览器矩阵以及所有视频/多图组合尚未完成兼容性验证。程序未签名。视频号自动识别为实验性功能，保留手动兜底。
+
+浏览器协助通过当前笔记页发送媒体任务，不复制浏览器登录会话到下载器。反馈 Issue 前请移除账号信息、Cookie、Token、请求头、私人路径和视频链接中的签名参数。
+
+这是免费软件，但不是开源软件。第三方通知与许可证随 v11.0.8 便携包提供。
+
+## 反馈与项目文件
+
+问题和功能建议请提交到 [GitHub Issues](https://github.com/xia-laoshi-ai/ClipStow/issues)。安全与隐私说明见 [SECURITY.md](https://github.com/xia-laoshi-ai/ClipStow/blob/main/SECURITY.md)，项目许可证见 [LICENSE.md](https://github.com/xia-laoshi-ai/ClipStow/blob/main/LICENSE.md)。维护者：海派小朋友Leo。
